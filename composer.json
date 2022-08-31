@@ -11,7 +11,7 @@
     "description": "meilisearch for hyperf php",
     "autoload": {
         "psr-4": {
-            "Coltonx\\Meilisearch\\": "src/"
+            "Alapi\\Meilisearch\\": "src/"
         }
     },
     "autoload-dev": {
@@ -57,7 +57,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Coltonx\\Meilisearch\\ConfigProvider"
+            "config": "Alapi\\Meilisearch\\ConfigProvider"
         }
     }
 }
