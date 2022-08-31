@@ -1,17 +1,17 @@
 {
-    "name": "alapi/hyperf-meilisearch",
+    "name": "colton-x/hyperf-meilisearch",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "php",
         "hyperf",
         "meilisearch",
-        "alapi"
+        "colton-x"
     ],
     "description": "meilisearch for hyperf php",
     "autoload": {
         "psr-4": {
-            "Alapi\\Meilisearch\\": "src/"
+            "Coltonx\\Meilisearch\\": "src/"
         }
     },
     "autoload-dev": {
@@ -57,7 +57,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Alapi\\Meilisearch\\ConfigProvider"
+            "config": "Coltonx\\Meilisearch\\ConfigProvider"
         }
     }
 }
