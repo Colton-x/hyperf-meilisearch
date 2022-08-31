@@ -119,7 +119,7 @@ class MeilisearchEngine extends Engine
 
     public function getTotalCount($results): int
     {
-        return (int) $results['nbHits'];
+        return (int) $results['estimatedTotalHits'];
     }
 
     public function flush(Model $model): void
